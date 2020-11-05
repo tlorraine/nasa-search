@@ -1,0 +1,30 @@
+.center-content {
+  margin: 2vh;
+}
+
+.back-link {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+  position: absolute;
+  top: 0;
+  margin: 25px;
+  font-size: larger;
+}
+
+.title {
+  padding: 1vh 1vh 1vh 1vh;
+}
+.id {
+  padding: 1vh 1vh 1vh 1vh;
+}
+
+.description {
+  padding: 1vh 1vh 1vh 1vh;
+}
+
+.created {
+  padding: 1vh 1vh 1vh 1vh;
+}
