@@ -15,15 +15,15 @@
 
 .title {
   padding: 1vh 1vh 1vh 1vh;
-}
-.id {
-  padding: 1vh 1vh 1vh 1vh;
+  color: white;
 }
 
 .description {
   padding: 1vh 1vh 1vh 1vh;
+  color: white;
 }
 
 .created {
   padding: 1vh 1vh 1vh 1vh;
+  color: white;
 }

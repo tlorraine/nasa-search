@@ -13,10 +13,6 @@ function App() {
     <div>
       <Navbar/>
       <Switch>
-        <Route exact path={['/', '/home']}>
-          <Home/>
-        </Route>
-
         <Route path="/nasa-details/:nasaId">
           <PictureDetails/>
         </Route>
@@ -25,6 +21,9 @@ function App() {
           <About/>
         </Route>
 
+        <Route path="/">
+          <Home/>
+        </Route>
       </Switch>
     </div>
   );

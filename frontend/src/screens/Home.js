@@ -8,7 +8,7 @@ const Home = () => {
     <div className="App">
       <h1 className='main-header'>Explore the universe</h1>
       <SearchForm />
-      <img src={astronaut}/>
+      {/*<img src={astronaut}/>*/}
     </div>
   );
 

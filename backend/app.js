@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const axios = require('axios').default;
 
-app.get('/images/search', async (req, res) => {
+const parseQuery = (req) => {
   let paramsConfig = {};
   const q = req.query.q;
   if (q) {
@@ -15,9 +15,19 @@ app.get('/images/search', async (req, res) => {
   } else {
     paramsConfig.page = 1;
   }
+  return paramsConfig;
+};
+
+app.get('/images/search', async (req, res) => {
+  const query = parseQuery(req);
+  if (!query.q) {
+    console.error("400 Bad request");
+    res.status(400);
+    return;
+  }
   try {
     const response = await axios.get(`https://images-api.nasa.gov/search`, {
-      params: paramsConfig
+      params: query
     });
     res.json(response.data);
   } catch (error) {
