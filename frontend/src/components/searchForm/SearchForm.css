@@ -36,3 +36,6 @@
   border-color: #4c3b71;
   box-shadow: 0 0 5px #4c3b71;
 }
+.spinner {
+  margin: 5vh;
+}

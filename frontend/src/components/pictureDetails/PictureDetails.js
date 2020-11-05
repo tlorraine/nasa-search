@@ -25,7 +25,7 @@ const PictureDetails = () => {
       <div className="center-content">
         <h3 className='title'>Title: {nasaDetails.data[0].title}</h3>
         <h6 className='id'>Id: {nasaDetails.data[0].nasa_id}</h6>
-        <img className="nasa-img" src={nasaDetails.links[0].href}></img>
+        <img className="nasa-img" src={nasaDetails.links[0].href}/>
         <p className='description'>Description: {nasaDetails.data[0].description}</p>
         <p className='created'>Created: {nasaDetails.data[0].date_created}</p>
       </div>

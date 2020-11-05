@@ -10,8 +10,6 @@ const Pagination = (props) => {
       if (nasaCollection) {
         const pages = [];
         const totalPages = Math.ceil(totalHits / 100);
-        // Position start either as 1 or in middle
-        // https://github.com/blakeembrey/metalsmith-pagination/issues/9
         const start = Math.max(1, currentPage - 2);
         const end = Math.min(start + 5, totalPages);
         for (let i = start; i <= end; i++) {

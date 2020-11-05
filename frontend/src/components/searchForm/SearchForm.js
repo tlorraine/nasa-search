@@ -46,7 +46,7 @@ const SearchForm = () => {
         <Loader
           className="spinner"
           type="Oval"
-          color="#00BFFF"
+          color="#4c3b71"
           height={100}
           width={100}
           timeout={5000}
