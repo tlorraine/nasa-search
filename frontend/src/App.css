@@ -10,7 +10,7 @@ html {
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
   font-family: 'MuseoModerno', cursive;
   text-align: center;
-  padding: 2vh;
+  padding: 4vh;
   color: white;
 }
 
@@ -18,5 +18,15 @@ html {
   text-align: center;
   margin: 3vh 0vh 3vh 0vh;
   color: white;
-  font-size: xxx-large;
+  font-size: 5vh;
+}
+
+.space-img {
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.about-description {
+  font-size: x-large;
 }

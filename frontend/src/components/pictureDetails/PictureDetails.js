@@ -20,7 +20,7 @@ const PictureDetails = () => {
   }
 
   return (
-    <div>
+    <div className='details'>
       <div className="center-content">
         <h3 className='title'>Title: {nasaDetails.data[0].title}</h3>
         <img className="nasa-img" src={nasaDetails.links[0].href}/>

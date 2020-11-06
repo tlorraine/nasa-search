@@ -7,6 +7,7 @@ import PictureDetails from "./components/pictureDetails/PictureDetails";
 import Navbar from "./components/navbar/Navbar";
 import About from "./screens/About";
 import './index.css';
+import Search from "./screens/Search";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
 
         <Route path="/about">
           <About/>
+        </Route>
+
+        <Route path="/search">
+          <Search/>
         </Route>
 
         <Route path="/">

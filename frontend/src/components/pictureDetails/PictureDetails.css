@@ -1,5 +1,10 @@
+.details {
+  text-align: -webkit-center;
+}
+
 .center-content {
   margin: 2vh;
+  max-width: 800px;
 }
 
 .back-link {
