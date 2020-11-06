@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import '../searchResults/SearchResults.css';
-import {Link, useParams} from "react-router-dom";
-import {getNasaDetailsById} from "../../api/nasa-api";
 import './PictureDetails.css';
+import '../searchResults/SearchResults.css';
+import {useParams} from "react-router-dom";
+import {getNasaDetailsById} from "../../api/nasa-api";
 
 const PictureDetails = () => {
   let {nasaId} = useParams();

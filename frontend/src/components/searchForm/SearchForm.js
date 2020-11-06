@@ -14,6 +14,7 @@ const SearchForm = () => {
   const [nasaCollection, setNasaCollection] = useState(null);
   const [totalHits, setTotalHits] = useState(0);
   const [loading, setLoading] = useState(false);
+
   const history = useHistory();
   const queryHistory = useQuery();
   const onCurrentRouteMatch = useRouteMatch('/search');
@@ -84,13 +85,13 @@ const SearchForm = () => {
         />
       );
     }
-    if (nasaCollection === null) {
+    if (nasaCollection && totalHits === 0) {
       return (
-        <div></div>
+        <div>No Search Results Found...</div>
       );
     }
     return (
-      <div>No Search Results Found...</div>
+      <div></div>
     );
   };
 
