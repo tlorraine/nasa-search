@@ -2,6 +2,7 @@
 
 ![Home page](/frontend/src/home.png)
 
+### What is Nasa Picture Search?
 Nasa Picture Search was created using the NASA Image and Video Library API. 
 Search among thousands of images. 
 
